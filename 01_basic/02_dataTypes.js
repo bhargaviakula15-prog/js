@@ -5,6 +5,7 @@
 let name = "bh" //string
 let age = 18 // numeric
 let isLoggedIn = true // boolean
+let state;
 
 //number => 2 to power 53
 //bigint

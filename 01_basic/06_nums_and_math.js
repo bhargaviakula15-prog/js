@@ -30,4 +30,13 @@ const numbersss = 100000000
 // console.log(Math.min(5, 6, 4, 9)); 
 // console.log(Math.max(5, 6, 4, 9)); 
 
+// console.log(Math.random()); // o/p will be in 0-1
+// console.log((Math.random()*10) +1); // if 0.3 is output then when we apply floor we get only 0 so we are multipling with 10 and adding 1
+// console.log((Math.floor(Math.random()*10) +1)); 
 
+// if we have max and min and want to get the range in between
+
+const max = 20
+const min = 10
+console.log(Math.random()* (max - min +1)); 
+console.log(Math.floor(Math.random()* (max - min +1))+ min); 
